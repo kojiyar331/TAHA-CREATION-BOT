@@ -58,22 +58,22 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage(formatMessage("Main Hun Naw Jaaneman ❤️"), threadID);
    };
 
-   if ((event.body.toLowerCase() == "shan") || (event.body.toLowerCase() == "Shaan") || (event.body.toLowerCase() == "shaan") || (event.body.toLowerCase() == "@Shaan Khan K")) {
+   if ((event.body.toLowerCase() == "shan") || (event.body.toLowerCase() == "taha") || (event.body.toLowerCase() == "Taha") || (event.body.toLowerCase() == "@Shaan Khan K")) {
      return api.sendMessage(formatMessage("Busy HoGa Work Me Main t0o Hun Naw 😘"),,threadID);
 
 
    };
 
    if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "Owner")) {
-     return api.sendMessage(formatMessage("💝🥀𝐎𝐖𝐍𝐄𝐑:- ☞𝐒𝐇𝐀𝐀𝐍 ☠ 𝐊𝐇𝐀𝐍☜ 💫\n🖤𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 𝐏𝐀𝐓𝐇𝐀𝐍🖤\n😳𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝🤓:- ☞ https://www.facebook.com/profile.php?id=100016828397863\n👋For Any Kind Of Help Contact On Telegram  Username 👉 @Shaankhank345😇"), threadID);
+     return api.sendMessage(formatMessage("💝🥀𝐎𝐖𝐍𝐄𝐑:- ☞TAHA ☠ 𝐊𝐇𝐀𝐍☜ 💫\n🖤𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒🖤\n😳𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝🤓:- ☞ https://www.facebook.com/profile.php?id=100085636015827\n👋For Any KinTAHSOf Help Contact On Telegram  Username 👉 khan😇"), threadID);
    };
 
    if ((event.body.toLowerCase() == "tumhe banaya kon hai") || (event.body.toLowerCase() == "tumko banaya kisne")) {
-     return api.sendMessage(formatMessage("Kashif ❤️ My Creator. He loves me & Edit Me Daily. Ye Bot Sirf Owner k Liye h. Mujhe Aap logo ko Hasane k liye banya gya h Toh Muh Ladkaye Mat Rakkha Karo. Har Waqt Haste Raho."), threadID);
+     return api.sendMessage(formatMessage("tahakhan ❤️ My Creator. He loves me & Edit Me Daily. Ye Bot Sirf Owner k Liye h. Mujhe Aap logo ko Hasane k liye banya gya h Toh Muh Ladkaye Mat Rakkha Karo. Har Waqt Haste Raho."), threadID);
    };
 
   if ((event.body.toLowerCase() == "bot admin") || (event.body.toLowerCase() == "bot ka admin kon ha")) {
-     return api.sendMessage(formatMessage("He is Shaan Khan. He Gives his name Shaani everywhare"), threadID);
+     return api.sendMessage(formatMessage("He is taha Khan. He Gives his name Shaani everywhare"), threadID);
    };
 
    if ((event.body.toLowerCase() == "shadi karoge") || (event.body.toLowerCase() == "mujhse shadi karoge?")) {
@@ -137,7 +137,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage(formatMessage("️Me toh Andha Hu Dekh nhi sakta"), threadID);
    };
 
-   if ((event.body.toLowerCase() == "jai shree ram") || (event.body.toLowerCase() == "ram") || (event.body.toLowerCase() == "ram ram")) {
+   if ((event.body.toLowerCase() == "assalamu alaikum") || (event.body.toLowerCase() == "ram") || (event.body.toLowerCase() == "ram ram")) {
     return api.sendMessage(formatMessage("️𝙃𝙐𝙈 𝙈𝙐𝙎𝙇𝙄𝙈 𝙃𝘼𝙄 𝙔𝙀 𝙉𝘼𝙃𝙄 𝘽𝙊𝙇 𝙎𝘼𝙆 𝙏𝙃𝘼 𝙈𝙀 😇"), threadID);
    };
 
@@ -237,7 +237,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   const msgLower = event.body.toLowerCase();
   if (msgLower.startsWith("Bot") && msgLower.length <= 10) {
     var msg = {
-      body: `${name}, ${rand}`
+      body: `$💋{name}💋, ${rand} TAHA KHAN`
     }
     return api.sendMessage(msg, threadID, messageID);
   };
