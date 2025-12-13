@@ -1,16 +1,14 @@
-const { formatMessage } = require('../../utils/formatter');
-
 module.exports.config = {
 name: 'autosent',
 version: '10.02',
 hasPermssion: 0,
-credits: "Kashif Raza",
+credits: 'NAWAZ AHMAD',
 description: 'Set Karne Ke Bad Automatically Msg Send Karega',
 commandCategory: 'group messenger',
 usages: '[]',
 cooldowns: 3
 };
-const nam = [{
+const nam =[{
 timer: '12:00:00 AM',
 message: ['──── •💜• ────\n                ⏳            جو خدا کو یاد کرتا ہے، خدا بھی اس کو یاد کرتا ہے          Whoever remembers Allah, Allah remembers them too.               \nTAHA KHAN \N──── •💜• ────']
 },
